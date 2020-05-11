@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AFD77A4178DD9D37F33BCDB /* libPods-NaverMapTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C30DCE15E5C3686912F67A7D /* libPods-NaverMapTest.a */; };
+		90CEC82F24691AE8000C804B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CEC82E24691AE8000C804B /* AppDelegate.swift */; };
+		90CEC83124691AE8000C804B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CEC83024691AE8000C804B /* SceneDelegate.swift */; };
+		90CEC83324691AE8000C804B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CEC83224691AE8000C804B /* ViewController.swift */; };
+		90CEC83624691AE8000C804B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90CEC83424691AE8000C804B /* Main.storyboard */; };
+		90CEC83824691AEA000C804B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90CEC83724691AEA000C804B /* Assets.xcassets */; };
+		90CEC83B24691AEA000C804B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90CEC83924691AEA000C804B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3636C62A030E08DBFE95720D /* Pods-NaverMapTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverMapTest.release.xcconfig"; path = "Target Support Files/Pods-NaverMapTest/Pods-NaverMapTest.release.xcconfig"; sourceTree = "<group>"; };
+		90CEC82B24691AE8000C804B /* NaverMapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaverMapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90CEC82E24691AE8000C804B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90CEC83024691AE8000C804B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		90CEC83224691AE8000C804B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90CEC83524691AE8000C804B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90CEC83724691AEA000C804B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90CEC83A24691AEA000C804B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90CEC83C24691AEA000C804B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30DCE15E5C3686912F67A7D /* libPods-NaverMapTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NaverMapTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE2FEBC05E90C367C93D541 /* Pods-NaverMapTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverMapTest.debug.xcconfig"; path = "Target Support Files/Pods-NaverMapTest/Pods-NaverMapTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90CEC82824691AE8000C804B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFD77A4178DD9D37F33BCDB /* libPods-NaverMapTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F2B47F21D51841128A0AEE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C30DCE15E5C3686912F67A7D /* libPods-NaverMapTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90CEC82224691AE8000C804B = {
+			isa = PBXGroup;
+			children = (
+				90CEC82D24691AE8000C804B /* NaverMapTest */,
+				90CEC82C24691AE8000C804B /* Products */,
+				DDF3A076314D24028EFB5389 /* Pods */,
+				1F2B47F21D51841128A0AEE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90CEC82C24691AE8000C804B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90CEC82B24691AE8000C804B /* NaverMapTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90CEC82D24691AE8000C804B /* NaverMapTest */ = {
+			isa = PBXGroup;
+			children = (
+				90CEC82E24691AE8000C804B /* AppDelegate.swift */,
+				90CEC83024691AE8000C804B /* SceneDelegate.swift */,
+				90CEC83224691AE8000C804B /* ViewController.swift */,
+				90CEC83424691AE8000C804B /* Main.storyboard */,
+				90CEC83724691AEA000C804B /* Assets.xcassets */,
+				90CEC83924691AEA000C804B /* LaunchScreen.storyboard */,
+				90CEC83C24691AEA000C804B /* Info.plist */,
+			);
+			path = NaverMapTest;
+			sourceTree = "<group>";
+		};
+		DDF3A076314D24028EFB5389 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2FEBC05E90C367C93D541 /* Pods-NaverMapTest.debug.xcconfig */,
+				3636C62A030E08DBFE95720D /* Pods-NaverMapTest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90CEC82A24691AE8000C804B /* NaverMapTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90CEC83F24691AEA000C804B /* Build configuration list for PBXNativeTarget "NaverMapTest" */;
+			buildPhases = (
+				CA49DA374846A8AD70D73FE8 /* [CP] Check Pods Manifest.lock */,
+				90CEC82724691AE8000C804B /* Sources */,
+				90CEC82824691AE8000C804B /* Frameworks */,
+				90CEC82924691AE8000C804B /* Resources */,
+				F4D6503EE74D098305E4DA41 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaverMapTest;
+			productName = NaverMapTest;
+			productReference = 90CEC82B24691AE8000C804B /* NaverMapTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90CEC82324691AE8000C804B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Yoo Hwa Park";
+				TargetAttributes = {
+					90CEC82A24691AE8000C804B = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 90CEC82624691AE8000C804B /* Build configuration list for PBXProject "NaverMapTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90CEC82224691AE8000C804B;
+			productRefGroup = 90CEC82C24691AE8000C804B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90CEC82A24691AE8000C804B /* NaverMapTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90CEC82924691AE8000C804B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CEC83B24691AEA000C804B /* LaunchScreen.storyboard in Resources */,
+				90CEC83824691AEA000C804B /* Assets.xcassets in Resources */,
+				90CEC83624691AE8000C804B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA49DA374846A8AD70D73FE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaverMapTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D6503EE74D098305E4DA41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NaverMapTest/Pods-NaverMapTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NaverMapTest/Pods-NaverMapTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NaverMapTest/Pods-NaverMapTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90CEC82724691AE8000C804B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CEC83324691AE8000C804B /* ViewController.swift in Sources */,
+				90CEC82F24691AE8000C804B /* AppDelegate.swift in Sources */,
+				90CEC83124691AE8000C804B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90CEC83424691AE8000C804B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90CEC83524691AE8000C804B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90CEC83924691AEA000C804B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90CEC83A24691AEA000C804B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90CEC83D24691AEA000C804B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90CEC83E24691AEA000C804B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90CEC84024691AEA000C804B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE2FEBC05E90C367C93D541 /* Pods-NaverMapTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7QWG9UZ69;
+				INFOPLIST_FILE = NaverMapTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.16ypark.NaverMapTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90CEC84124691AEA000C804B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3636C62A030E08DBFE95720D /* Pods-NaverMapTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7QWG9UZ69;
+				INFOPLIST_FILE = NaverMapTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.16ypark.NaverMapTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90CEC82624691AE8000C804B /* Build configuration list for PBXProject "NaverMapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CEC83D24691AEA000C804B /* Debug */,
+				90CEC83E24691AEA000C804B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90CEC83F24691AEA000C804B /* Build configuration list for PBXNativeTarget "NaverMapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90CEC84024691AEA000C804B /* Debug */,
+				90CEC84124691AEA000C804B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90CEC82324691AE8000C804B /* Project object */;
+}
